@@ -1,0 +1,468 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body,html{
+	height: 100%;
+}
+
+/*******DIVs PADROES******/
+
+.classepadrao{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	/*background-color: #0b3b80;*/
+}
+
+.clear{
+	clear:both;
+}
+/***********/
+
+/*
+*
+*
+*
+*
+*****TEXTO CHAMADA E IFRAME
+*
+*
+*
+*/
+
+.section-video{
+	width: 100%;
+	background-color: #0b3b80;
+}
+.section-video .classepadrao{
+	text-align: center;
+/*	height:900px;*/
+}
+
+.video-de-venda{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	margin:0 auto;
+}
+
+section.section-video div.primeiro-titulo{
+	text-align: center;
+	padding: 30px 0 20px 0;
+}
+
+.section-video #h1{
+	font-size: 40px;
+	color: white;
+	padding:0 0 7px 0;
+}
+
+.section-video #h2{
+	font-size: 35px;
+	color: white;
+	display: inline-block;
+	background-color: red;
+}
+
+.video-de-venda iframe{
+	width: 90%;
+	height: 450px;
+	border: 9px solid white;
+	border-radius: 15px;
+}
+
+/*
+*
+*
+*
+*******formulario do video
+*
+*
+*
+*
+*/
+.formulario-mobile{
+	display: none;
+}
+
+
+.classepadrao form.formulario-do-video fieldset{
+	width: 50%;
+	padding: 10px 2%;
+	margin: 10px 0 30px 0;
+	border:0;
+	border-radius: 15px;
+	background-color: white;
+	display: inline-block;
+}
+
+
+form.formulario-do-video fieldset h2{
+	font-size: 26px;
+	font-weight: normal;
+}
+
+form.formulario-do-video fieldset h2 span{
+	background-color: orange;
+}
+
+form.formulario-do-video input[type="email"]{
+	width: 92%;
+	font-size: 20px;
+	border:0;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	padding: 15px 10px;
+	outline:0;
+}
+
+form.formulario-do-video .botaoenviar{
+	width: 50%;
+	display: inline-block;
+}
+
+form.formulario-do-video input[type="submit"]{
+	width: 100%;
+	font-size:20px;
+	cursor: pointer;
+	color: white;
+	border:0;
+	border-bottom: 7px solid #787878;
+	border-radius: 20px;
+	background-color: black;
+	padding-bottom: 10px;
+	padding: 15px 10px;
+}
+
+form.formulario-do-video .botaoenviar:hover{
+	padding-top: 3px;
+}
+
+form.formulario-do-video input[type="submit"]:hover{
+	border-bottom: 4px solid #787878;
+}
+
+
+/*
+*
+*
+*
+*************icone de ceta apontando para o artigo
+*
+*
+******************NÃO FINALIZADO
+*
+*/
+
+/*.classepadrao .video-de-venda .icone-logo{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	bottom: -25px;
+	left: calc(50% - 50px);
+	display: inline-block;
+	background-image: url('..imagens/ico.png');
+	background-size:100% 100%;
+	background-position: center;
+}
+
+
+.classepadrao .video-de-venda .icone-logo .parte-de-cima{
+	width: 100px;
+	height: 25px;
+	background-color: black;
+}
+
+.classepadrao .video-de-venda .icone-logo .parte-de-baixo{
+	width: 100px;
+	height: 25px;
+	background-color: #0b3b80;
+}
+*/
+
+
+
+
+/*
+**
+**
+*
+*				**SECTION CHAMADA**
+*
+*
+*
+**/
+section.section-chamada{
+	color: white;
+	padding: 80px 10px;
+}
+
+section.section-chamada, section.section-chamada .classepadrao{
+	text-align: center;
+	background-color: black;
+}
+
+section.section-chamada .classepadrao > h2{
+	font-size: 30px;
+	padding: 20px;
+}
+
+section.section-chamada .classepadrao > h2 span{
+	background-color: red;
+}
+
+
+
+/*
+
+
+***********BOTÃO DE VER O ARTIGO
+
+
+*/
+
+
+.btn-ver-artigo{
+	width: 300px;
+	display: inline-block;
+	/*cursor: pointer;*/
+
+
+	/*line-height faz com que o texto fique
+	alinhado no meio*/
+
+
+	height: 64px;
+	line-height: 64px;
+	border-radius: 30px;
+	background-color: #FF703D;
+}
+
+
+.btn-ver-artigo a{
+	color: white;
+	text-decoration: none;
+}
+
+/*
+
+
+
+**********CONTEÚDO PRINCIPAL
+
+**********SOBRE MIM
+
+*/
+
+section.section-sobre-mim{
+	background-color: green;
+}
+
+
+section.section-sobre-mim .classepadrao div h2{
+	font-weight: normal;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+
+
+/*
+
+*********SECTION VANTAGENS
+
+*/
+
+
+section.section-vantagens .classepadrao{
+	height: 900px;
+	padding: 20px;
+	position: relative;
+	background-color: gray;
+}
+
+section .titulo-das-vantagens{
+	text-align: center;
+	padding: 20px;
+}
+
+section .titulo-das-vantagens h2,section .titulo-das-vantagens p{
+	font-size: 40px;
+	padding: 20px;
+}
+
+section .titulo-das-vantagens p{
+	font-size: 20px;
+}
+
+div.incapsular-right{
+	position: absolute;
+	right: 15px;
+}
+
+div.incapsular-right > p{
+	padding-bottom: 40px;
+}
+
+div.incapsular-left{
+	position:absolute;
+	left: 15px;
+}
+
+section.section-vantagens .classepadrao div.incapsular-left > p, .incapsular-right > p{
+	width: 400px;
+	font-size: 21px;
+	padding: 20px 0 10px 10px;
+}
+
+section.section-vantagens div.do-h2{
+	background-color: green;
+	text-align: center;
+	height: auto;
+}
+
+section.section-vantagens div.do-h2 h2{
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+.section-artigo{
+
+}
+
+
+
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+********MEDIA QUERIES
+*
+*
+*
+*
+*
+*/
+
+
+
+@media screen and (max-width: 1024px){
+	section.section-video div.primeiro-titulo{
+		padding: 10px 0 20px 0;
+	}
+	.video-de-venda iframe{
+		width: 96%;
+		height: 400px;
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 60%;
+	}
+
+	section.section-chamada{
+		padding: 50px 10px;
+	}
+
+}
+
+
+
+
+
+@media screen and (max-width: 819px){
+		section.section-vantagens .classepadrao{
+		padding: 0;
+		text-align: center;
+		height: auto;
+	}
+
+
+	div.incapsular-right,div.incapsular-left{
+		display: inline-block;
+		text-align:left;
+		position: static;
+	}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px){
+	.video-de-venda iframe{
+		width: 100%;
+		height: 350px;
+
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 70%;
+	}
+
+	section.section-chamada{
+		padding: 30px 10px;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+	section.section-video .classepadrao .video-de-venda{
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+	.video-de-venda iframe{
+		height: 290px;
+
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 100%;
+	}
+
+}
+
+
+
+
+/**
+width="560"
+height="315"
+frameborder="0"
+
+
+*/

@@ -1,0 +1,29 @@
+para poder juntar o github com a minha maquina eu tenho
+que ir no meu perfil do github e em settings SSH and GPG key
+dps configurar se eu não lembrar posso pesquisar no youtube/google
+
+no meu terminal eu tenho q usar esse comando
+e e-mail tem q ser o mesmo do meu git
+ssh-keygen -t rsa -b 4096 -C "josehamiltonsantosjunior@gmail.com"
+
+dps para eu poder juntar o repo local com o remoto eu dou esse command:
+
+com SSH
+git remote add origin git@github.com:jhamiltonjunior/project-netflix-com-glider.js.git
+
+Com HTTPS
+git remote add origin https://github.com/jhamiltonjunior/project-netflix-com-glider.js.git
+
+o link é varialvel pode ser outro link depende do repositorio
+
+git push -u origin main
+para poder colocar o meu projeto no gihub
+
+
+o HEAD sempre aponta para que commit estamos
+o master sempre será a linha do tempo
+
+
+Eu também passo adcionar assim:
+git add *.js ou *.html vai add tudo de uma certa extenção
+git diff me mostra todas as alterações q eu fiz

@@ -1,0 +1,130 @@
+/* html {
+  height: 100%;
+} */
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#white-box {
+  background-color: white;
+  width: 65%;
+  height: 75%;
+  font-size: 0;
+  border-radius: 25px;
+  position: relative;
+}
+
+/* image section */
+
+.img-section {
+   width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+
+.bgimgdesktop {
+   margin-top: -295px;
+   margin-left: -600px;
+}
+
+.imgwomen {
+  width: 450px;
+  position: relative;
+  top: -575px;
+  left: -84px;
+}
+
+.imgbox {
+  position: absolute;
+  top: 202px;
+  left: -87px;
+  width: 180px;
+}
+
+.effectAfter {
+   transform: translateX(-35px);
+   transition: transform 0.3s linear;
+}
+
+.effect {
+  transform: translateZ(35px);
+  transition: transform 0.2s linear;
+}
+
+/* text section */
+
+.text-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  font-size: 12px;
+  padding-right: 110px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(238, 29%, 16%);
+  margin-top: 50px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 12px;
+  display: none;
+  margin-top: 0;
+}
+
+h4:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid hsl(240, 5%, 91%);
+}
+
+h4 {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.arrow1, .arrow2, .arrow3, .arrow4, .arrow5 {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+
+.arrow-up {
+  transform: rotate(0deg);
+  transition: transform 0.5s linear;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  transition: transform 0.5s linear;
+}
+
+.showans {
+  display: inherit;
+
+}
+
+.fontStyleAfterClick {
+  color: hsl(237, 12%, 33%);
+  font-weight: 900;
+}
